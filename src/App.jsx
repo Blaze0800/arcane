@@ -194,7 +194,7 @@ function App() {
               <h2>CATCH FIRE</h2>
             </div>
             <div>
-              <h1 className=" arcanelogo absolute text-white flex w-full text-[35px]  top-[-10] left-1/1 ">
+              <h1 className=" arcanelogo absolute text-white left-1/1 text-4xl ">
                 A
               </h1>
             </div>
