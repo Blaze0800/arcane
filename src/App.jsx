@@ -113,14 +113,15 @@ function App() {
 
     textTimeline
       .to(".arcanetext", {
-        delay: 1,
-        duration: 0.5,
+        delay: 0,
+        duration: 1,
         scale: 1.3,
         ease: "ease2.out",
       })
       .to(
         ".arcane-container",
         {
+          delay: 0.2,
           duration: 0.5,
           gap: "300px",
           ease: "ease2.out",
