@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "arcane";
+    src: url("/fonts/Arcane.otf");
+}
+@font-face {
+    font-family: "spiegel";
+    src: url("/fonts/Spiegel.otf");
+}
+@font-face {
+    font-family: "lol";
+    src: url("/fonts/LOL.otf");
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Arcane", "Spiegel", "LOL";
+}
+
+.headertext {
+    font-family: "lol";
+    font: bold;
+}
+.arcanetext {
+    font-family: "arcane";
+    font: bold;
+}
+.loltext {
+    font-family: "lol";
+    font: bold;
+}
